@@ -1,0 +1,139 @@
+# SYNTHETIC visit transcripts with gold annotations. All names, IDs, dates, phone numbers and
+# addresses are invented and deliberately implausible. Format: see eval/dataset.py.
+
+=== id: c01 | specialty: family medicine | split: dev | codes: J02.0
+H X | Visit date: {{DATE|04/12/2091}}   Patient name: {{NAME|Zorblat Quibbleworth}}   MRN: {{MRN|ZQ-000417}}
+D X | Good morning Mr. {{NAME|Quibbleworth}}, I'm Dr. {{NAME|Fennimore Wobblesprocket}}.
+P X | Morning, doctor.
+D X | What brings you in today?
+P S | I've had a sore throat and fever for the past three days.
+P S | It really hurts to swallow and I have no cough.
+D X | Any recent sick contacts?
+P S | My daughter {{NAME|Plinka}} had strep throat last week.
+N O | Temperature is 101.3 degrees and heart rate is 96.
+D O | On exam, the tonsils are swollen with white exudate and the neck nodes are tender.
+D O | The rapid strep test came back positive.
+D A | This is most likely strep throat.
+D P | I'll prescribe amoxicillin 500 mg twice a day for 10 days.
+D P | Take ibuprofen 400 mg every 6 hours as needed for pain and fever.
+D P | Please come back in one week if you are not feeling better.
+P X | Thanks, will do.
+H X | Electronically signed: {{NAME|Fennimore Wobblesprocket}}, MD
+
+=== id: c02 | specialty: pediatrics | split: dev | codes: H66.90
+H X | Pediatric sick visit {{DATE|2092-02-03}}, patient {{NAME|Tibbo Grumbleknot}}, DOB {{DATE|07/19/2088}}, MRN {{MRN|PED-55120}}
+D X | Hi there, and hello to mom as well.
+P S | He has been pulling at his right ear and crying at night for two days.
+P S | He had a runny nose last week and a fever of 102 yesterday.
+D X | Is he eating and drinking okay?
+P S | He is drinking fine but not eating much.
+D O | His temperature today is 100.8 degrees.
+D O | On otoscopic exam the right tympanic membrane is red and bulging.
+D O | The left ear looks normal and the lungs are clear.
+D A | I think this is an acute right ear infection, otitis media.
+D P | We'll start amoxicillin 400 mg twice a day for ten days.
+D P | You can give acetaminophen as needed for fever.
+D P | If he is not better in 48 hours, call us at {{PHONE|555-010-4410}}.
+P X | Okay, thank you.
+D P | Let's recheck the ear in two weeks.
+H X | Signed {{NAME|Ombretta Vistulane}}, MD
+
+=== id: c03 | specialty: cardiology | split: test | codes: I48.91
+H X | Cardiology consult for {{NAME|Hasbro Pemberton-Quill}}, account {{ACCOUNT|AC-77310-ZZ}}, referred by Dr. {{NAME|Lunetta Fable}}
+D X | Thanks for coming in, Mr. {{NAME|Pemberton-Quill}}.
+P S | For about a month my heart has been fluttering and racing, mostly at night.
+P S | I get winded climbing stairs and I've felt more tired than usual.
+D X | Any chest pain or fainting?
+P S | No chest pain and I haven't passed out.
+D O | Your pulse is irregularly irregular at 112 and blood pressure is 138/84.
+D O | The ECG shows atrial fibrillation with rapid ventricular response.
+D O | Thyroid labs came back normal.
+D A | This is new onset atrial fibrillation.
+D P | I'm going to start metoprolol 25 mg twice a day for rate control.
+D P | We'll also start apixaban 5 mg twice a day to reduce stroke risk.
+D P | I'd like to get an echocardiogram next week.
+D P | Follow up with me in four weeks.
+P X | Sounds good.
+H X | Questions can go to {{EMAIL|cardio.desk@example.org}} or fax {{FAX|555-010-7781}}.
+
+=== id: c04 | specialty: endocrinology | split: dev | codes: E11.65
+H X | Endocrine follow-up, {{DATE|March 3rd, 2093}}, {{NAME|Gristle Ambervane}}, MRN {{MRN|EN-204991}}
+D X | Good afternoon Ms. {{NAME|Ambervane}}, how have things been?
+P S | My sugars at home have been running in the 250s most mornings.
+P S | I've been really thirsty and getting up to pee three times a night.
+P S | I take metformin 1000 mg twice a day but sometimes I miss the evening dose.
+D O | Your A1c came back at 9.4 percent, up from 8.1.
+D O | Your weight is 98 kg and blood pressure is 132/80.
+D O | The foot exam shows intact sensation to monofilament.
+D A | Your type 2 diabetes is poorly controlled with hyperglycemia.
+D P | I'd like to add empagliflozin 10 mg once a day.
+D P | Continue metformin at the same dose.
+D P | I'll refer you to our diabetes educator.
+D P | Let's repeat the A1c in three months.
+P X | Okay, that makes sense.
+H X | Patient portal: {{URL|https://portal.example.test/u/ga204991}}
+
+=== id: c05 | specialty: pulmonology | split: dev | codes: J44.1
+H X | {{NAME|Brumley Oxtail}}, {{AGE|91-year-old}} man, seen {{DATE|11/30/2090}}
+D X | Mr. {{NAME|Oxtail}}, I hear your breathing has been worse.
+P S | Since the weekend I've been coughing up thick green sputum and I'm short of breath walking to the mailbox.
+P S | I smoked for forty years but I quit a while ago.
+P S | My son {{NAME|Dorrit}} says I've been wheezing at night.
+D X | Are you using your inhalers every day?
+P S | I use the tiotropium every morning and the albuterol about six times a day now.
+N O | Oxygen saturation is 88 percent on room air and respiratory rate is 24.
+D O | On auscultation there are diffuse expiratory wheezes and decreased air movement.
+D O | The chest x-ray shows hyperinflation without a focal infiltrate.
+D A | This is a COPD exacerbation, likely triggered by a bronchial infection.
+D P | I'll prescribe prednisone 40 mg daily for five days.
+D P | We'll also start doxycycline 100 mg twice a day for seven days.
+D P | Go to the emergency department if your breathing gets worse tonight.
+D P | I want to see you back in one week.
+
+=== id: c06 | specialty: dermatology | split: dev | codes: B02.9
+H X | Derm visit {{DATE|Jan 9, 2094}} - {{NAME|Wilhelmina Sprocketgate}} - member ID {{ACCOUNT|HMO-4401928}}
+D X | Hello Mrs. {{NAME|Sprocketgate}}, what's going on with your skin?
+P S | Four days ago I got a burning pain on my left side and then a band of blisters showed up.
+P S | It's only on one side and it really stings.
+D X | Have you had chickenpox before?
+P S | Yes, as a child.
+D O | I see grouped vesicles on a red base in a band along the left T6 dermatome.
+D O | The rash does not cross the midline.
+D A | This looks like shingles.
+D P | I'll start valacyclovir 1 g three times a day for seven days.
+D P | Use acetaminophen for pain and keep the area clean and covered.
+D P | Avoid contact with pregnant women and babies until the blisters crust over.
+D P | Once this heals, we should talk about the shingles vaccine.
+P X | Thank you so much.
+
+=== id: c07 | specialty: orthopedics | split: test | codes: S93.401A
+H X | Ortho walk-in. Pt: {{NAME|Quentin Flapjack}}. Phone {{PHONE|(555) 010-2299}}. DOB {{DATE|5/14/2071}}.
+D X | Hi Mr. {{NAME|Flapjack}}, tell me what happened.
+P S | I rolled my right ankle playing basketball last night and heard a pop.
+P S | I could walk on it afterward but it swelled up a lot.
+D O | There is swelling and bruising over the lateral right ankle.
+D O | There is tenderness over the anterior talofibular ligament but no bony tenderness at the malleolus.
+D O | Ankle x-ray shows no fracture.
+D A | This is a right ankle sprain, probably grade two.
+D P | Rest, ice, compression and elevation for the next few days.
+D P | You can take naproxen 500 mg twice a day with food for pain.
+D P | I'll put you in an air cast and give you crutches.
+D P | We'll refer you to physical therapy in a week.
+D P | Come back in two weeks if it is not improving.
+
+=== id: c08 | specialty: psychiatry | split: dev | codes: F41.1
+H X | Behavioral health intake {{DATE|October 2, 2091}}, {{NAME|Esmeralda Thistlewaite}}, MRN {{MRN|BH-0099213}}
+D X | Thanks for coming in today, {{NAME|Esmeralda}}.
+P S | For the last eight months I've been worrying constantly about work, money and my kids.
+P S | I can't turn my mind off at night and I get tension headaches most days.
+P S | My husband {{NAME|Gorvin}} says I'm irritable all the time.
+D X | Any thoughts of harming yourself?
+P S | No, nothing like that.
+D O | Her GAD-7 score today is 16.
+D O | She appears anxious but is alert, with linear thought process and normal speech.
+D A | This is consistent with generalized anxiety disorder.
+D P | We'll start sertraline 25 mg daily and increase to 50 mg in one week.
+D P | I'm going to refer you to cognitive behavioral therapy.
+D P | Call the crisis line or 988 if you ever feel unsafe.
+D P | Follow up in four weeks to see how the medication is working.
+P X | Okay, I'll try it.

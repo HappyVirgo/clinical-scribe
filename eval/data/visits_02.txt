@@ -1,0 +1,119 @@
+# SYNTHETIC visit transcripts with gold annotations (continued). All identifiers are invented.
+
+=== id: c09 | specialty: gastroenterology | split: dev | codes: K21.9
+H X | GI clinic, {{NAME|Barnaby Crumblewick}}, seen {{DATE|6/21/2092}}, insurance ID {{ACCOUNT|ZZINS-338210}}
+D X | Good morning Mr. {{NAME|Crumblewick}}.
+P S | I get a burning feeling behind my breastbone after meals, especially when I lie down.
+P S | It has been going on for about three months and I sometimes taste acid in my mouth.
+P S | I drink four cups of coffee a day and eat late dinners.
+D X | Any trouble swallowing or black stools?
+P S | No trouble swallowing and my stools are normal.
+D O | His abdomen is soft and non-tender with normal bowel sounds.
+D O | Weight is stable at 84 kg.
+D A | This sounds like classic acid reflux, GERD.
+D P | I'll start omeprazole 20 mg once a day before breakfast for eight weeks.
+D P | Try to avoid eating within three hours of bedtime and cut back on coffee.
+D P | Raise the head of your bed by a few inches.
+D P | If you aren't better in two months we will consider an endoscopy.
+
+=== id: c10 | specialty: urology | split: test | codes: N20.0
+H X | ED to urology handoff, {{NAME|Philomena Gorse}}, {{DATE|August 14, 2093}}, MRN {{MRN|UR-7781002}}
+D X | Ms. {{NAME|Gorse}}, I'm Dr. {{NAME|Abernathy Sloop}} from urology.
+P S | The pain started suddenly this morning in my right flank and it comes in waves.
+P S | It moves down toward my groin and I threw up twice.
+P S | I had a kidney stone about five years ago.
+D O | Urinalysis shows blood in the urine without signs of infection.
+D O | The CT scan shows a 5 mm stone in the right distal ureter with mild hydronephrosis.
+D O | Creatinine is normal at 0.9.
+D A | You have a kidney stone that will most likely pass on its own.
+D P | I'll give you tamsulosin 0.4 mg daily to help it pass.
+D P | Take ibuprofen 600 mg every 6 hours as needed for pain and drink plenty of water.
+D P | Strain your urine and bring the stone to clinic.
+D P | Return to the ER for fever or uncontrolled pain.
+D P | We'll see you in clinic in two weeks with a repeat x-ray.
+
+=== id: c11 | specialty: obstetrics | split: dev | codes: Z34.90
+H X | Prenatal visit {{DATE|09/09/2095}}. Patient {{NAME|Honeysuckle Brambleford}}, {{PHONE|555-010-6612}}, {{ADDRESS|12 Puddingstone Lane, Nowhereton}}, ZZ {{ZIP|00921}}
+D X | Hello {{NAME|Honeysuckle}}, how are you feeling this week?
+P S | Much better, the morning nausea has mostly gone away.
+P S | I've been feeling the baby move a little.
+D O | You are 20 weeks by dates and your blood pressure is 112/70.
+D O | Fetal heart rate is 148 and fundal height is 20 centimeters.
+D O | The anatomy ultrasound looked normal.
+D A | This is a normal pregnancy progressing as expected.
+D P | Keep taking your prenatal vitamin every day.
+D P | We'll schedule the glucose screening test at 26 weeks.
+D P | Come back in four weeks for your next prenatal visit.
+P X | Great, see you then.
+
+=== id: c12 | specialty: neurology | split: dev | codes: G43.909
+H X | Neurology clinic {{DATE|17 May 2092}} — {{NAME|Octavius Wimbleton}}, MRN {{MRN|NE-30017}}
+D X | Mr. {{NAME|Wimbleton}}, tell me about the headaches.
+P S | I get a throbbing headache on one side about four times a month.
+P S | Light and noise bother me and I usually throw up with the bad ones.
+P S | Before some of them I see zigzag lines for about twenty minutes.
+P S | My mother had migraines too.
+D O | Neurologic exam is normal, including cranial nerves, strength and reflexes.
+D O | Blood pressure is 124/78.
+D A | These are migraine headaches with aura.
+D P | For attacks you can take sumatriptan 50 mg at onset.
+D P | Let's start propranolol 40 mg twice a day for prevention.
+D P | Keep a headache diary and limit painkillers to two days a week.
+D P | Follow up in three months.
+
+=== id: c13 | specialty: otolaryngology | split: dev | codes: J01.90
+H X | ENT visit, {{NAME|Margery Tumbledown}}, {{DATE|Feb 2, 2096}}, email {{EMAIL|mtumbledown@example.com}}
+D X | Hi Ms. {{NAME|Tumbledown}}, what's bothering you?
+P S | I've had facial pressure and thick yellow nasal discharge for twelve days.
+P S | It got better for a bit and then got worse again this week.
+P S | My upper teeth ache and I can't smell anything.
+D O | Temperature is 100.4 and there is tenderness over the maxillary sinuses.
+D O | Nasal exam shows swollen turbinates with purulent drainage.
+D A | This is likely an acute bacterial sinus infection.
+D P | I'll prescribe amoxicillin-clavulanate 875 mg twice a day for seven days.
+D P | Use saline rinses and fluticasone nasal spray daily.
+D P | Call us if you develop eye swelling or a severe headache.
+D P | Follow up in two weeks if symptoms persist.
+
+=== id: c14 | specialty: rheumatology | split: test | codes: M10.9
+H X | Rheum urgent visit, {{NAME|Cornelius Bottlebrush}}, lives in {{ADDRESS|Muddlecombe}}, seen {{DATE|12/01/2094}}
+D X | Morning Mr. {{NAME|Bottlebrush}}, I hear your toe is bothering you.
+P S | I woke up two nights ago with my big toe red, hot and so painful I couldn't put a sheet on it.
+P S | I had a few beers and a steak dinner the night before.
+P S | I take hydrochlorothiazide for blood pressure.
+D O | The right first metatarsophalangeal joint is swollen, warm and exquisitely tender.
+D O | Uric acid level is 9.2.
+D O | Joint aspiration showed needle-shaped crystals.
+D A | This is an acute gout flare.
+D P | I'll start colchicine 0.6 mg twice a day until the flare settles.
+D P | Ice the joint and avoid alcohol and organ meats.
+D P | We'll talk about switching your blood pressure pill and starting allopurinol once this calms down.
+D P | See you back in three weeks.
+
+=== id: c15 | specialty: geriatrics | split: dev | codes: M81.0
+H X | Geriatrics visit for {{NAME|Augustina Pennywhistle}}, {{AGE|age 94}}, MRN {{MRN|GR-11002}}, daughter {{NAME|Clementine}} present
+D X | Good to see you again, Mrs. {{NAME|Pennywhistle}}.
+P S | My back aches a little, but mostly I'm worried about falling.
+P S | My daughter {{NAME|Clementine}} helps me with groceries now.
+P S | I broke my wrist when I was {{AGE|90}} after tripping on a rug.
+D O | The bone density scan shows a T-score of minus 3.1 at the hip.
+D O | Her gait is slow but steady with a cane.
+D O | Vitamin D level is 22.
+D A | She has osteoporosis with a prior fragility fracture.
+D P | I'm going to start alendronate 70 mg once a week.
+D P | Take vitamin D 2000 units daily along with calcium.
+D P | We'll arrange a home safety evaluation to reduce fall risk.
+D P | Follow up in three months.
+
+=== id: c16 | specialty: urgent care | split: dev | codes: N39.0
+H X | Urgent care, {{NAME|Ramona Fizzlebeck}}, DOB {{DATE|02/28/2069}}, SSN {{SSN|000-48-1177}}
+D X | Hi Ms. {{NAME|Fizzlebeck}}, I understand you're having urinary symptoms.
+P S | For two days it has burned when I pee and I feel like I have to go all the time.
+P S | There's no fever or back pain.
+D O | Urine dipstick is positive for leukocytes and nitrites.
+D O | She is afebrile and there is no costovertebral angle tenderness.
+D A | This is a simple urinary tract infection.
+D P | I'll prescribe nitrofurantoin 100 mg twice a day for five days.
+D P | Drink plenty of fluids.
+D P | We'll send the urine for culture and call you at {{PHONE|555-010-8803}} if we need to change the antibiotic.
+D P | Return if you develop fever or flank pain.

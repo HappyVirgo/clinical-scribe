@@ -1,0 +1,17 @@
+Visit date: 04/12/2091   Patient name: Zorblat Quibbleworth   MRN: ZQ-000417
+Doctor: Good morning Mr. Quibbleworth, I'm Dr. Fennimore Wobblesprocket.
+Patient: Morning, doctor.
+Doctor: What brings you in today?
+Patient: I've had a sore throat and fever for the past three days.
+Patient: It really hurts to swallow and I have no cough.
+Doctor: Any recent sick contacts?
+Patient: My daughter Plinka had strep throat last week.
+Nurse: Temperature is 101.3 degrees and heart rate is 96.
+Doctor: On exam, the tonsils are swollen with white exudate and the neck nodes are tender.
+Doctor: The rapid strep test came back positive.
+Doctor: This is most likely strep throat.
+Doctor: I'll prescribe amoxicillin 500 mg twice a day for 10 days.
+Doctor: Take ibuprofen 400 mg every 6 hours as needed for pain and fever.
+Doctor: Please come back in one week if you are not feeling better.
+Patient: Thanks, will do.
+Electronically signed: Fennimore Wobblesprocket, MD

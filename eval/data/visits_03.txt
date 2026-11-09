@@ -1,0 +1,111 @@
+# SYNTHETIC visit transcripts with gold annotations (continued). All identifiers are invented.
+
+=== id: c17 | specialty: sports medicine | split: dev | codes: M17.9
+H X | Sports med, {{NAME|Thaddeus Mumblecrust}}, {{DATE|July 4th, 2093}}, {{ADDRESS|408 Gravelpit Road}}, Snoozeville ZZ {{ZIP|00314}}
+D X | Hi {{NAME|Thaddeus}}, what can I do for you?
+P S | Both knees ache after I walk more than a mile, the right worse than the left.
+P S | They are stiff for about fifteen minutes in the morning.
+P S | It has been slowly getting worse over two years.
+D O | There is crepitus in both knees with a small effusion on the right.
+D O | Range of motion is mildly reduced and the ligaments are stable.
+D O | Knee x-rays show joint space narrowing and osteophytes.
+D A | This is osteoarthritis of both knees.
+D P | Start physical therapy for quadriceps strengthening.
+D P | You can use diclofenac gel four times a day on the knees.
+D P | Losing some weight would take pressure off the joints.
+D P | If that doesn't help we can discuss a steroid injection at your follow up in six weeks.
+
+=== id: c18 | specialty: sleep medicine | split: test | codes: G47.33
+H X | Sleep clinic {{DATE|3/15/2097}}, {{NAME|Archibald Snorrington}}, contact {{EMAIL|a.snorr@example.net}}
+D X | Mr. {{NAME|Snorrington}}, your wife sent you in about snoring?
+P S | She says I snore loudly and sometimes stop breathing in my sleep.
+P S | I wake up with headaches and fall asleep at my desk in the afternoon.
+D O | BMI is 36 and neck circumference is 18 inches.
+D O | Blood pressure is 148/92.
+D O | The home sleep study showed an apnea-hypopnea index of 32 events per hour.
+D A | You have severe obstructive sleep apnea.
+D P | We'll set you up with a CPAP machine.
+D P | Avoid alcohol in the evenings and don't drive when drowsy.
+D P | I'd like to see you back in eight weeks to check the CPAP data.
+P X | Okay, I'm willing to try it.
+
+=== id: c19 | specialty: allergy | split: dev | codes: J30.2
+H X | Allergy clinic, {{NAME|Lavinia Puddlesworth}}, {{DATE|April 22, 2091}}, fax results to {{FAX|555-010-3390}}
+D X | Hello Ms. {{NAME|Puddlesworth}}.
+P S | Every spring my eyes itch and water and I sneeze all day.
+P S | It is worse when I'm outside and it goes away by summer.
+P S | Cetirizine helps a little but makes me sleepy.
+D O | Nasal mucosa is pale and boggy and there is clear rhinorrhea.
+D O | Skin prick testing was positive for tree and grass pollen.
+D A | This is seasonal allergic rhinitis due to pollen.
+D P | Start fluticasone nasal spray two sprays in each nostril daily.
+D P | Switch to loratadine 10 mg daily since it's less sedating.
+D P | Keep windows closed on high pollen days.
+D P | We can discuss allergy shots at your follow up in three months.
+
+=== id: c20 | specialty: nephrology | split: dev | codes: N18.30
+H X | Nephrology, {{NAME|Fergus Dimpleton}}, MRN {{MRN|NP-660041}}, telehealth from IP {{IP|10.20.30.40}}
+D X | Good afternoon Mr. {{NAME|Dimpleton}}, can you hear me okay?
+P S | Yes, and I've been feeling about the same, a little more tired maybe.
+P S | I have diabetes and high blood pressure.
+D O | Your creatinine is 1.7 and the eGFR is 41, similar to six months ago.
+D O | Urine albumin to creatinine ratio is 120.
+D O | Potassium is 4.8.
+D A | This is stable chronic kidney disease stage 3.
+D P | Continue lisinopril 20 mg daily.
+D P | Avoid ibuprofen and naproxen because they can hurt the kidneys.
+D P | We'll recheck kidney labs in three months.
+
+=== id: c21 | specialty: infectious disease | split: test | codes: J11.1
+H X | Telehealth visit {{DATE|01/05/2098}}, {{NAME|Mirabel Tottenquay}}, callback {{PHONE|555.010.4477}}
+D X | Hi {{NAME|Mirabel}}, sorry you're not feeling well.
+P S | Yesterday I suddenly got a high fever, chills, body aches and a dry cough.
+P S | Several people at my office have the flu.
+P S | I didn't get a flu shot this year.
+D O | Your home temperature reading was 102.6.
+D O | The rapid influenza test you did at the pharmacy was positive for influenza A.
+D A | This is influenza.
+D P | Since you're within 48 hours, I'll prescribe oseltamivir 75 mg twice a day for five days.
+D P | Rest, drink fluids and use acetaminophen for fever.
+D P | Stay home until you have been fever free for 24 hours.
+D P | Go to the ER if you have trouble breathing.
+
+=== id: c22 | specialty: primary care | split: dev | codes: Z00.00, E78.5
+H X | Annual physical, {{NAME|Bartholomew Quince}}, DOB {{DATE|10/10/2061}}, account {{ACCOUNT|PC-993104}}
+D X | Good morning Mr. {{NAME|Quince}}, it's time for your yearly checkup.
+P S | I feel good overall and I walk most days.
+P S | My father had a heart attack at 60.
+D O | Blood pressure is 126/78 and BMI is 27.
+D O | Heart and lung exams are normal.
+D O | Your LDL cholesterol came back at 172.
+D A | Overall a healthy exam, but you have high cholesterol.
+D P | I recommend starting atorvastatin 20 mg daily.
+D P | Let's also schedule your colonoscopy.
+D P | We'll recheck the lipid panel in three months.
+
+=== id: c23 | specialty: dermatology | split: dev | codes: L20.9
+H X | Peds derm, {{NAME|Pippin Wobblewort}}, DOB {{DATE|1/2/2090}}, mom {{NAME|Saffron}} present
+D X | Hi {{NAME|Pippin}}, can I take a look at your arms?
+P S | His skin has been dry and itchy for months and he scratches at night.
+P S | It gets worse in the winter and after baths.
+P S | We have a history of asthma and hay fever in the family.
+D O | There are dry, scaly, lichenified patches in both elbow creases and behind the knees.
+D O | There is no sign of skin infection.
+D A | This is atopic dermatitis, also called eczema.
+D P | Use triamcinolone 0.1% ointment twice a day on the patches for two weeks.
+D P | Apply a thick fragrance-free moisturizer right after bathing.
+D P | Keep baths short and lukewarm.
+D P | Follow up in one month.
+
+=== id: c24 | specialty: primary care | split: test | codes: I10
+H X | Blood pressure follow-up, {{NAME|Ignatius Fumblebee}}, {{DATE|June 6, 2099}}, MRN {{MRN|PC-450078}}
+D X | Mr. {{NAME|Fumblebee}}, let's look at your blood pressure log.
+P S | My home readings have been around 150 over 95 even when I'm relaxed.
+P S | I don't have headaches or chest pain.
+P S | I've cut back on salt but I'm not exercising much.
+D O | Blood pressure today is 152/96 on two readings and heart rate is 74.
+D O | Basic metabolic panel is normal.
+D A | This is essential hypertension that is not controlled.
+D P | I'll start amlodipine 5 mg once a day.
+D P | Aim for 30 minutes of walking five days a week.
+D P | Recheck your blood pressure in four weeks.

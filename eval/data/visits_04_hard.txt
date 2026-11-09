@@ -1,0 +1,54 @@
+# SYNTHETIC "hard" held-out cases: less regular phrasing, identifiers without strong cues.
+# Written after the dev heuristics were finalised and never used for tuning. All identifiers
+# are invented.
+
+=== id: c25 | specialty: family medicine | split: test | codes: J20.9
+H X | {{NAME|Wendeline Crabapple}} {{DATE|3/3/91}} f/u cough
+D X | Come on in, have a seat.
+P S | So it's been like ten days of this hacking cough and my chest feels raw, and {{NAME|Brindle}} keeps telling me I sound terrible.
+P S | Not really any fever, I bring up a bit of clear stuff in the mornings.
+D X | Anybody else at home sick?
+P S | Just my grandson, he had a cold over the holidays.
+D O | Chest sounds coarse but no crackles, sats are 97 and she's afebrile.
+D A | Impression is acute bronchitis, probably viral, no evidence of pneumonia.
+D P | Antibiotics won't help here so honey, fluids and benzonatate 100 mg up to three times a day for the cough.
+D P | If you're still coughing in three weeks or get short of breath, I want to know.
+P X | Alright, I can live with that.
+H X | Nurse {{NAME|Pomfrey Haddock}} called pt back at {{PHONE|5550104477}}.
+
+=== id: c26 | specialty: geriatrics | split: test | codes: R55
+H X | Fall/syncope eval. Pt {{NAME|Ezekiel Marrowbone}}, she's... correction he's {{AGE|93}}, accompanied by niece.
+D X | Mr. {{NAME|Marrowbone}}, can you tell me what happened on the {{DATE|fifteenth}}?
+P S | I stood up from the toilet and the next thing I knew I was on the floor, my niece {{NAME|Opaline}} found me.
+P S | I was only out for a few seconds and I didn't hit my head.
+D O | Orthostatic vitals show a drop from 138/80 lying to 104/66 standing, with lightheadedness.
+D O | Heart has a regular rhythm without murmurs and the ECG is unremarkable.
+D A | This episode was most likely orthostatic syncope, possibly from his new blood pressure pill.
+D P | We're going to hold the hydrochlorothiazide for now.
+D P | Get up slowly, sit on the edge of the bed first, and drink more water during the day.
+D P | I'll see him again in two weeks with repeat orthostatics.
+H X | cc: Dr {{NAME|Ingrid Oaksplinter}} fax {{FAX|555 010 2201}}
+
+=== id: c27 | specialty: endocrinology | split: test | codes: E03.9
+H X | Thyroid follow up for {{NAME|Lucius Bramblethorn}}, seen {{DATE|Sept. 30, 2092}}, chart number {{MRN|TH 88-1204}}
+D X | {{NAME|Lucius}}, good to see you, how's the energy?
+P S | Honestly still dragging, I'm cold all the time and I've put on about eight pounds.
+P S | I take the levothyroxine with my coffee every morning.
+D O | TSH is up at 8.9 and free T4 is low normal.
+D O | Skin is dry and reflexes are slow to relax.
+D A | Hypothyroidism, undertreated, and taking it with coffee is probably reducing absorption.
+D P | Take levothyroxine on an empty stomach with water, thirty minutes before coffee or food.
+D P | I'm bumping the dose to 88 mcg daily.
+D P | Labs again in six weeks, and we'll go from there.
+
+=== id: c28 | specialty: pediatrics | split: test | codes: J45.901
+H X | Peds acute. {{NAME|Juniper Quillfeather}} age 7. Parent: {{NAME|Rowan Quillfeather}} ({{EMAIL|rowan.q@example.org}}).
+D X | Hi buddy, I hear you've been wheezy.
+P S | Since yesterday he's been coughing all night and says his chest is tight, and his albuterol only helps for an hour.
+P S | He has asthma and it usually flares when he gets a cold.
+N O | Pulse ox 93 percent, respiratory rate 32, mild retractions.
+D O | Diffuse wheezing on both sides with a prolonged expiratory phase.
+D A | So this is an asthma flare triggered by a viral cold, moderate in severity.
+D P | He'll get albuterol nebs here and a dose of oral steroids before you go home.
+D P | Prednisolone once daily for the next four days, and albuterol every four hours while awake.
+D P | Bring him back tomorrow or go to the ER sooner if he's working hard to breathe.

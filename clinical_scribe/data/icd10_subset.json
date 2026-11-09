@@ -1,0 +1,1053 @@
+{
+ "_comment": "Curated SUBSET of ICD-10-CM (common outpatient codes) for demonstration only. Not complete or authoritative. Not for clinical or billing use.",
+ "codes": [
+  {
+   "code": "I10",
+   "description": "Essential (primary) hypertension",
+   "synonyms": [
+    "hypertension",
+    "high blood pressure",
+    "htn",
+    "elevated blood pressure",
+    "well controlled hypertension"
+   ]
+  },
+  {
+   "code": "E11.9",
+   "description": "Type 2 diabetes mellitus without complications",
+   "synonyms": [
+    "type 2 diabetes",
+    "diabetes mellitus",
+    "t2dm",
+    "diabetic",
+    "dm2",
+    "well controlled diabetes"
+   ]
+  },
+  {
+   "code": "E11.65",
+   "description": "Type 2 diabetes mellitus with hyperglycemia",
+   "synonyms": [
+    "uncontrolled diabetes",
+    "poorly controlled diabetes",
+    "high blood sugar",
+    "hyperglycemia"
+   ]
+  },
+  {
+   "code": "E11.40",
+   "description": "Type 2 diabetes mellitus with diabetic neuropathy, unspecified",
+   "synonyms": [
+    "diabetic neuropathy",
+    "diabetic foot numbness"
+   ]
+  },
+  {
+   "code": "R73.03",
+   "description": "Prediabetes",
+   "synonyms": [
+    "prediabetes",
+    "borderline diabetes",
+    "impaired fasting glucose"
+   ]
+  },
+  {
+   "code": "E78.5",
+   "description": "Hyperlipidemia, unspecified",
+   "synonyms": [
+    "hyperlipidemia",
+    "high cholesterol",
+    "dyslipidemia",
+    "elevated lipids"
+   ]
+  },
+  {
+   "code": "E03.9",
+   "description": "Hypothyroidism, unspecified",
+   "synonyms": [
+    "hypothyroidism",
+    "underactive thyroid",
+    "low thyroid"
+   ]
+  },
+  {
+   "code": "E05.90",
+   "description": "Thyrotoxicosis, unspecified without thyrotoxic crisis or storm",
+   "synonyms": [
+    "hyperthyroidism",
+    "overactive thyroid",
+    "thyrotoxicosis"
+   ]
+  },
+  {
+   "code": "E66.9",
+   "description": "Obesity, unspecified",
+   "synonyms": [
+    "obesity",
+    "obese",
+    "overweight"
+   ]
+  },
+  {
+   "code": "E55.9",
+   "description": "Vitamin D deficiency, unspecified",
+   "synonyms": [
+    "vitamin d deficiency",
+    "low vitamin d"
+   ]
+  },
+  {
+   "code": "E86.0",
+   "description": "Dehydration",
+   "synonyms": [
+    "dehydration",
+    "dehydrated",
+    "volume depletion"
+   ]
+  },
+  {
+   "code": "D64.9",
+   "description": "Anemia, unspecified",
+   "synonyms": [
+    "anemia",
+    "low hemoglobin"
+   ]
+  },
+  {
+   "code": "D50.9",
+   "description": "Iron deficiency anemia, unspecified",
+   "synonyms": [
+    "iron deficiency anemia",
+    "low iron",
+    "low ferritin"
+   ]
+  },
+  {
+   "code": "J06.9",
+   "description": "Acute upper respiratory infection, unspecified",
+   "synonyms": [
+    "upper respiratory infection",
+    "uri",
+    "common cold",
+    "viral uri",
+    "head cold"
+   ]
+  },
+  {
+   "code": "J02.9",
+   "description": "Acute pharyngitis, unspecified",
+   "synonyms": [
+    "pharyngitis",
+    "sore throat",
+    "viral pharyngitis"
+   ]
+  },
+  {
+   "code": "J02.0",
+   "description": "Streptococcal pharyngitis",
+   "synonyms": [
+    "strep throat",
+    "streptococcal pharyngitis",
+    "strep pharyngitis"
+   ]
+  },
+  {
+   "code": "J01.90",
+   "description": "Acute sinusitis, unspecified",
+   "synonyms": [
+    "sinusitis",
+    "sinus infection",
+    "rhinosinusitis"
+   ]
+  },
+  {
+   "code": "J20.9",
+   "description": "Acute bronchitis, unspecified",
+   "synonyms": [
+    "bronchitis",
+    "chest cold",
+    "acute bronchitis"
+   ]
+  },
+  {
+   "code": "J18.9",
+   "description": "Pneumonia, unspecified organism",
+   "synonyms": [
+    "pneumonia",
+    "community acquired pneumonia",
+    "lung infection"
+   ]
+  },
+  {
+   "code": "J45.909",
+   "description": "Unspecified asthma, uncomplicated",
+   "synonyms": [
+    "asthma",
+    "reactive airway disease",
+    "well controlled asthma",
+    "mild intermittent asthma"
+   ]
+  },
+  {
+   "code": "J45.901",
+   "description": "Unspecified asthma with (acute) exacerbation",
+   "synonyms": [
+    "asthma exacerbation",
+    "asthma flare",
+    "asthma attack"
+   ]
+  },
+  {
+   "code": "J44.9",
+   "description": "Chronic obstructive pulmonary disease, unspecified",
+   "synonyms": [
+    "copd",
+    "emphysema",
+    "chronic bronchitis"
+   ]
+  },
+  {
+   "code": "J44.1",
+   "description": "Chronic obstructive pulmonary disease with (acute) exacerbation",
+   "synonyms": [
+    "copd exacerbation",
+    "copd flare"
+   ]
+  },
+  {
+   "code": "J30.9",
+   "description": "Allergic rhinitis, unspecified",
+   "synonyms": [
+    "allergic rhinitis",
+    "hay fever",
+    "nasal allergies"
+   ]
+  },
+  {
+   "code": "J30.2",
+   "description": "Other seasonal allergic rhinitis",
+   "synonyms": [
+    "seasonal allergies",
+    "pollen allergy",
+    "seasonal allergic rhinitis"
+   ]
+  },
+  {
+   "code": "J11.1",
+   "description": "Influenza due to unidentified influenza virus with other respiratory manifestations",
+   "synonyms": [
+    "influenza",
+    "flu",
+    "influenza-like illness"
+   ]
+  },
+  {
+   "code": "U07.1",
+   "description": "COVID-19",
+   "synonyms": [
+    "covid",
+    "covid-19",
+    "sars-cov-2",
+    "coronavirus infection"
+   ]
+  },
+  {
+   "code": "B34.9",
+   "description": "Viral infection, unspecified",
+   "synonyms": [
+    "viral infection",
+    "viral syndrome",
+    "virus"
+   ]
+  },
+  {
+   "code": "R05.9",
+   "description": "Cough, unspecified",
+   "synonyms": [
+    "cough",
+    "persistent cough"
+   ]
+  },
+  {
+   "code": "R06.02",
+   "description": "Shortness of breath",
+   "synonyms": [
+    "shortness of breath",
+    "dyspnea",
+    "breathlessness"
+   ]
+  },
+  {
+   "code": "R50.9",
+   "description": "Fever, unspecified",
+   "synonyms": [
+    "fever",
+    "febrile",
+    "pyrexia"
+   ]
+  },
+  {
+   "code": "H66.90",
+   "description": "Otitis media, unspecified, unspecified ear",
+   "synonyms": [
+    "otitis media",
+    "ear infection",
+    "middle ear infection"
+   ]
+  },
+  {
+   "code": "H61.20",
+   "description": "Impacted cerumen, unspecified ear",
+   "synonyms": [
+    "impacted cerumen",
+    "earwax impaction",
+    "ear wax"
+   ]
+  },
+  {
+   "code": "H10.9",
+   "description": "Unspecified conjunctivitis",
+   "synonyms": [
+    "conjunctivitis",
+    "pink eye"
+   ]
+  },
+  {
+   "code": "H81.10",
+   "description": "Benign paroxysmal vertigo, unspecified ear",
+   "synonyms": [
+    "bppv",
+    "benign paroxysmal positional vertigo",
+    "positional vertigo"
+   ]
+  },
+  {
+   "code": "R42",
+   "description": "Dizziness and giddiness",
+   "synonyms": [
+    "dizziness",
+    "lightheadedness",
+    "lightheaded"
+   ]
+  },
+  {
+   "code": "I25.10",
+   "description": "Atherosclerotic heart disease of native coronary artery without angina pectoris",
+   "synonyms": [
+    "coronary artery disease",
+    "cad",
+    "atherosclerotic heart disease"
+   ]
+  },
+  {
+   "code": "I20.9",
+   "description": "Angina pectoris, unspecified",
+   "synonyms": [
+    "angina",
+    "stable angina",
+    "exertional chest pain"
+   ]
+  },
+  {
+   "code": "I48.91",
+   "description": "Unspecified atrial fibrillation",
+   "synonyms": [
+    "atrial fibrillation",
+    "afib",
+    "a-fib",
+    "irregular heart rhythm"
+   ]
+  },
+  {
+   "code": "I50.9",
+   "description": "Heart failure, unspecified",
+   "synonyms": [
+    "heart failure",
+    "chf",
+    "congestive heart failure"
+   ]
+  },
+  {
+   "code": "R07.9",
+   "description": "Chest pain, unspecified",
+   "synonyms": [
+    "chest pain",
+    "chest discomfort"
+   ]
+  },
+  {
+   "code": "R00.2",
+   "description": "Palpitations",
+   "synonyms": [
+    "palpitations",
+    "racing heart",
+    "heart pounding"
+   ]
+  },
+  {
+   "code": "R55",
+   "description": "Syncope and collapse",
+   "synonyms": [
+    "syncope",
+    "fainting",
+    "passed out"
+   ]
+  },
+  {
+   "code": "I73.9",
+   "description": "Peripheral vascular disease, unspecified",
+   "synonyms": [
+    "peripheral vascular disease",
+    "peripheral artery disease",
+    "claudication"
+   ]
+  },
+  {
+   "code": "I82.409",
+   "description": "Acute embolism and thrombosis of unspecified deep veins of unspecified lower extremity",
+   "synonyms": [
+    "deep vein thrombosis",
+    "dvt",
+    "blood clot in leg"
+   ]
+  },
+  {
+   "code": "R60.0",
+   "description": "Localized edema",
+   "synonyms": [
+    "edema",
+    "ankle swelling",
+    "leg swelling"
+   ]
+  },
+  {
+   "code": "K21.9",
+   "description": "Gastro-esophageal reflux disease without esophagitis",
+   "synonyms": [
+    "gerd",
+    "acid reflux",
+    "heartburn",
+    "reflux"
+   ]
+  },
+  {
+   "code": "K29.70",
+   "description": "Gastritis, unspecified, without bleeding",
+   "synonyms": [
+    "gastritis",
+    "stomach inflammation"
+   ]
+  },
+  {
+   "code": "K59.00",
+   "description": "Constipation, unspecified",
+   "synonyms": [
+    "constipation",
+    "constipated"
+   ]
+  },
+  {
+   "code": "K58.9",
+   "description": "Irritable bowel syndrome without diarrhea",
+   "synonyms": [
+    "irritable bowel syndrome",
+    "ibs"
+   ]
+  },
+  {
+   "code": "A09",
+   "description": "Infectious gastroenteritis and colitis, unspecified",
+   "synonyms": [
+    "gastroenteritis",
+    "stomach bug",
+    "stomach flu",
+    "infectious diarrhea"
+   ]
+  },
+  {
+   "code": "K57.32",
+   "description": "Diverticulitis of large intestine without perforation or abscess without bleeding",
+   "synonyms": [
+    "diverticulitis"
+   ]
+  },
+  {
+   "code": "K80.20",
+   "description": "Calculus of gallbladder without cholecystitis without obstruction",
+   "synonyms": [
+    "gallstones",
+    "cholelithiasis",
+    "biliary colic"
+   ]
+  },
+  {
+   "code": "K64.9",
+   "description": "Unspecified hemorrhoids",
+   "synonyms": [
+    "hemorrhoids"
+   ]
+  },
+  {
+   "code": "R10.9",
+   "description": "Unspecified abdominal pain",
+   "synonyms": [
+    "abdominal pain",
+    "stomach pain",
+    "belly pain"
+   ]
+  },
+  {
+   "code": "R11.2",
+   "description": "Nausea with vomiting, unspecified",
+   "synonyms": [
+    "nausea and vomiting",
+    "vomiting",
+    "nausea"
+   ]
+  },
+  {
+   "code": "R19.7",
+   "description": "Diarrhea, unspecified",
+   "synonyms": [
+    "diarrhea",
+    "loose stools"
+   ]
+  },
+  {
+   "code": "N39.0",
+   "description": "Urinary tract infection, site not specified",
+   "synonyms": [
+    "urinary tract infection",
+    "uti",
+    "bladder infection"
+   ]
+  },
+  {
+   "code": "N30.00",
+   "description": "Acute cystitis without hematuria",
+   "synonyms": [
+    "acute cystitis",
+    "cystitis"
+   ]
+  },
+  {
+   "code": "N20.0",
+   "description": "Calculus of kidney",
+   "synonyms": [
+    "kidney stone",
+    "nephrolithiasis",
+    "renal calculus"
+   ]
+  },
+  {
+   "code": "N40.1",
+   "description": "Benign prostatic hyperplasia with lower urinary tract symptoms",
+   "synonyms": [
+    "benign prostatic hyperplasia",
+    "bph",
+    "enlarged prostate",
+    "urinary hesitancy"
+   ]
+  },
+  {
+   "code": "N18.30",
+   "description": "Chronic kidney disease, stage 3 unspecified",
+   "synonyms": [
+    "chronic kidney disease",
+    "ckd",
+    "ckd stage 3",
+    "reduced kidney function"
+   ]
+  },
+  {
+   "code": "R31.9",
+   "description": "Hematuria, unspecified",
+   "synonyms": [
+    "hematuria",
+    "blood in urine"
+   ]
+  },
+  {
+   "code": "N94.6",
+   "description": "Dysmenorrhea, unspecified",
+   "synonyms": [
+    "dysmenorrhea",
+    "painful periods",
+    "menstrual cramps"
+   ]
+  },
+  {
+   "code": "N95.1",
+   "description": "Menopausal and female climacteric states",
+   "synonyms": [
+    "menopause",
+    "menopausal symptoms",
+    "hot flashes"
+   ]
+  },
+  {
+   "code": "N76.0",
+   "description": "Acute vaginitis",
+   "synonyms": [
+    "vaginitis",
+    "vaginal infection",
+    "yeast infection"
+   ]
+  },
+  {
+   "code": "Z34.90",
+   "description": "Encounter for supervision of normal pregnancy, unspecified, unspecified trimester",
+   "synonyms": [
+    "normal pregnancy",
+    "prenatal visit",
+    "pregnancy supervision"
+   ]
+  },
+  {
+   "code": "O21.0",
+   "description": "Mild hyperemesis gravidarum",
+   "synonyms": [
+    "hyperemesis gravidarum",
+    "morning sickness",
+    "pregnancy nausea"
+   ]
+  },
+  {
+   "code": "M54.50",
+   "description": "Low back pain, unspecified",
+   "synonyms": [
+    "low back pain",
+    "lumbago",
+    "lower back pain",
+    "lumbar pain"
+   ]
+  },
+  {
+   "code": "M54.2",
+   "description": "Cervicalgia",
+   "synonyms": [
+    "neck pain",
+    "cervicalgia"
+   ]
+  },
+  {
+   "code": "M54.16",
+   "description": "Radiculopathy, lumbar region",
+   "synonyms": [
+    "lumbar radiculopathy",
+    "pinched nerve lower back"
+   ]
+  },
+  {
+   "code": "M54.30",
+   "description": "Sciatica, unspecified side",
+   "synonyms": [
+    "sciatica",
+    "sciatic nerve pain"
+   ]
+  },
+  {
+   "code": "S39.012A",
+   "description": "Strain of muscle, fascia and tendon of lower back, initial encounter",
+   "synonyms": [
+    "lumbar strain",
+    "back strain",
+    "pulled back muscle"
+   ]
+  },
+  {
+   "code": "M17.9",
+   "description": "Osteoarthritis of knee, unspecified",
+   "synonyms": [
+    "knee osteoarthritis",
+    "knee arthritis",
+    "degenerative joint disease knee"
+   ]
+  },
+  {
+   "code": "M19.90",
+   "description": "Unspecified osteoarthritis, unspecified site",
+   "synonyms": [
+    "osteoarthritis",
+    "degenerative arthritis",
+    "oa"
+   ]
+  },
+  {
+   "code": "M25.561",
+   "description": "Pain in right knee",
+   "synonyms": [
+    "right knee pain",
+    "knee pain"
+   ]
+  },
+  {
+   "code": "M25.511",
+   "description": "Pain in right shoulder",
+   "synonyms": [
+    "right shoulder pain",
+    "shoulder pain"
+   ]
+  },
+  {
+   "code": "M75.41",
+   "description": "Impingement syndrome of right shoulder",
+   "synonyms": [
+    "shoulder impingement",
+    "rotator cuff impingement",
+    "impingement syndrome"
+   ]
+  },
+  {
+   "code": "M79.7",
+   "description": "Fibromyalgia",
+   "synonyms": [
+    "fibromyalgia",
+    "widespread pain"
+   ]
+  },
+  {
+   "code": "M10.9",
+   "description": "Gout, unspecified",
+   "synonyms": [
+    "gout",
+    "gouty arthritis",
+    "podagra"
+   ]
+  },
+  {
+   "code": "M81.0",
+   "description": "Age-related osteoporosis without current pathological fracture",
+   "synonyms": [
+    "osteoporosis",
+    "low bone density"
+   ]
+  },
+  {
+   "code": "G56.00",
+   "description": "Carpal tunnel syndrome, unspecified upper limb",
+   "synonyms": [
+    "carpal tunnel syndrome",
+    "median nerve compression",
+    "hand numbness"
+   ]
+  },
+  {
+   "code": "M65.4",
+   "description": "Radial styloid tenosynovitis [de Quervain]",
+   "synonyms": [
+    "de quervain tenosynovitis",
+    "de quervain's",
+    "thumb tendonitis"
+   ]
+  },
+  {
+   "code": "S93.401A",
+   "description": "Sprain of unspecified ligament of right ankle, initial encounter",
+   "synonyms": [
+    "right ankle sprain",
+    "ankle sprain",
+    "rolled ankle",
+    "twisted ankle"
+   ]
+  },
+  {
+   "code": "S06.0X0A",
+   "description": "Concussion without loss of consciousness, initial encounter",
+   "synonyms": [
+    "concussion",
+    "mild traumatic brain injury"
+   ]
+  },
+  {
+   "code": "G43.909",
+   "description": "Migraine, unspecified, not intractable, without status migrainosus",
+   "synonyms": [
+    "migraine",
+    "migraine headache"
+   ]
+  },
+  {
+   "code": "G44.209",
+   "description": "Tension-type headache, unspecified, not intractable",
+   "synonyms": [
+    "tension headache",
+    "tension-type headache",
+    "stress headache"
+   ]
+  },
+  {
+   "code": "R51.9",
+   "description": "Headache, unspecified",
+   "synonyms": [
+    "headache",
+    "head pain"
+   ]
+  },
+  {
+   "code": "G47.00",
+   "description": "Insomnia, unspecified",
+   "synonyms": [
+    "insomnia",
+    "trouble sleeping",
+    "sleeplessness"
+   ]
+  },
+  {
+   "code": "G47.33",
+   "description": "Obstructive sleep apnea (adult) (pediatric)",
+   "synonyms": [
+    "obstructive sleep apnea",
+    "sleep apnea",
+    "osa",
+    "snoring with apneas"
+   ]
+  },
+  {
+   "code": "G40.909",
+   "description": "Epilepsy, unspecified, not intractable, without status epilepticus",
+   "synonyms": [
+    "epilepsy",
+    "seizure disorder",
+    "seizures"
+   ]
+  },
+  {
+   "code": "G62.9",
+   "description": "Polyneuropathy, unspecified",
+   "synonyms": [
+    "peripheral neuropathy",
+    "polyneuropathy",
+    "neuropathy"
+   ]
+  },
+  {
+   "code": "F32.A",
+   "description": "Depression, unspecified",
+   "synonyms": [
+    "depression",
+    "depressed mood",
+    "depressive symptoms"
+   ]
+  },
+  {
+   "code": "F41.1",
+   "description": "Generalized anxiety disorder",
+   "synonyms": [
+    "generalized anxiety disorder",
+    "gad",
+    "chronic worry"
+   ]
+  },
+  {
+   "code": "F41.9",
+   "description": "Anxiety disorder, unspecified",
+   "synonyms": [
+    "anxiety",
+    "anxious",
+    "anxiety disorder"
+   ]
+  },
+  {
+   "code": "F43.10",
+   "description": "Post-traumatic stress disorder, unspecified",
+   "synonyms": [
+    "ptsd",
+    "post-traumatic stress",
+    "posttraumatic stress disorder"
+   ]
+  },
+  {
+   "code": "F90.9",
+   "description": "Attention-deficit hyperactivity disorder, unspecified type",
+   "synonyms": [
+    "adhd",
+    "attention deficit",
+    "hyperactivity"
+   ]
+  },
+  {
+   "code": "F17.210",
+   "description": "Nicotine dependence, cigarettes, uncomplicated",
+   "synonyms": [
+    "nicotine dependence",
+    "tobacco use",
+    "smoker",
+    "cigarette smoking"
+   ]
+  },
+  {
+   "code": "F10.20",
+   "description": "Alcohol dependence, uncomplicated",
+   "synonyms": [
+    "alcohol dependence",
+    "alcohol use disorder",
+    "alcoholism"
+   ]
+  },
+  {
+   "code": "L03.90",
+   "description": "Cellulitis, unspecified",
+   "synonyms": [
+    "cellulitis",
+    "skin infection"
+   ]
+  },
+  {
+   "code": "L20.9",
+   "description": "Atopic dermatitis, unspecified",
+   "synonyms": [
+    "atopic dermatitis",
+    "eczema"
+   ]
+  },
+  {
+   "code": "L30.9",
+   "description": "Dermatitis, unspecified",
+   "synonyms": [
+    "dermatitis",
+    "skin inflammation",
+    "contact dermatitis"
+   ]
+  },
+  {
+   "code": "L40.0",
+   "description": "Psoriasis vulgaris",
+   "synonyms": [
+    "psoriasis",
+    "plaque psoriasis"
+   ]
+  },
+  {
+   "code": "L70.0",
+   "description": "Acne vulgaris",
+   "synonyms": [
+    "acne",
+    "pimples",
+    "acne vulgaris"
+   ]
+  },
+  {
+   "code": "L50.9",
+   "description": "Urticaria, unspecified",
+   "synonyms": [
+    "urticaria",
+    "hives"
+   ]
+  },
+  {
+   "code": "B35.1",
+   "description": "Tinea unguium",
+   "synonyms": [
+    "onychomycosis",
+    "toenail fungus",
+    "nail fungus"
+   ]
+  },
+  {
+   "code": "B35.3",
+   "description": "Tinea pedis",
+   "synonyms": [
+    "tinea pedis",
+    "athlete's foot"
+   ]
+  },
+  {
+   "code": "B02.9",
+   "description": "Zoster without complications",
+   "synonyms": [
+    "shingles",
+    "herpes zoster",
+    "zoster"
+   ]
+  },
+  {
+   "code": "R21",
+   "description": "Rash and other nonspecific skin eruption",
+   "synonyms": [
+    "rash",
+    "skin eruption"
+   ]
+  },
+  {
+   "code": "R53.83",
+   "description": "Other fatigue",
+   "synonyms": [
+    "fatigue",
+    "tiredness",
+    "low energy"
+   ]
+  },
+  {
+   "code": "R63.4",
+   "description": "Abnormal weight loss",
+   "synonyms": [
+    "weight loss",
+    "unintentional weight loss"
+   ]
+  },
+  {
+   "code": "Z00.00",
+   "description": "Encounter for general adult medical examination without abnormal findings",
+   "synonyms": [
+    "annual physical",
+    "wellness exam",
+    "routine checkup",
+    "physical exam"
+   ]
+  },
+  {
+   "code": "Z00.129",
+   "description": "Encounter for routine child health examination without abnormal findings",
+   "synonyms": [
+    "well child visit",
+    "well child check",
+    "child checkup"
+   ]
+  },
+  {
+   "code": "Z23",
+   "description": "Encounter for immunization",
+   "synonyms": [
+    "immunization",
+    "vaccination",
+    "vaccine",
+    "flu shot"
+   ]
+  },
+  {
+   "code": "Z30.011",
+   "description": "Encounter for initial prescription of contraceptive pills",
+   "synonyms": [
+    "birth control pills",
+    "oral contraceptive",
+    "contraception"
+   ]
+  },
+  {
+   "code": "Z12.11",
+   "description": "Encounter for screening for malignant neoplasm of colon",
+   "synonyms": [
+    "colon cancer screening",
+    "screening colonoscopy"
+   ]
+  },
+  {
+   "code": "Z12.31",
+   "description": "Encounter for screening mammogram for malignant neoplasm of breast",
+   "synonyms": [
+    "screening mammogram",
+    "breast cancer screening"
+   ]
+  },
+  {
+   "code": "Z79.01",
+   "description": "Long term (current) use of anticoagulants",
+   "synonyms": [
+    "anticoagulation",
+    "blood thinner",
+    "warfarin therapy"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clinical-scribe"
+version = "0.1.0"
+description = "PHI de-identification, SOAP note drafting and ICD-10 code suggestion for visit transcripts. Not for clinical use."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.70",
+    "fastapi>=0.115",
+    "pydantic>=2.9",
+    "uvicorn>=0.30",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "httpx>=0.27", "ruff>=0.6", "mypy>=1.11"]
+
+[tool.setuptools]
+packages = ["clinical_scribe"]
+
+[tool.setuptools.package-data]
+clinical_scribe = ["data/*.json"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+ignore = ["SIM905"]  # word lists are clearer as split strings
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+packages = ["clinical_scribe", "eval"]
+plugins = ["pydantic.mypy"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
